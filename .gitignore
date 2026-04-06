@@ -1,0 +1,49 @@
+# =========================
+# ESP-IDF Build Artifacts
+# =========================
+build/
+sdkconfig.old
+
+# Optional: ignore sdkconfig if you want reproducible defaults
+# sdkconfig
+
+# =========================
+# Dependency lock (optional)
+# =========================
+dependencies.lock
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.settings/
+.idea/
+*.code-workspace
+
+# Eclipse (ESP-IDF plugin)
+.cproject
+.project
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Python cache (ESP-IDF uses Python)
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Misc
+# =========================
+*.swp
