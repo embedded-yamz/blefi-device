@@ -1,11 +1,108 @@
-ESP-IDF template app
-====================
+\# BLEFI Device
 
-This is a template application to be used with [Espressif IoT Development Framework](https://github.com/espressif/esp-idf).
 
-Please check [ESP-IDF docs](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html) for getting started instructions.
 
-*Code in this repository is in the Public Domain (or CC0 licensed, at your option.)
-Unless required by applicable law or agreed to in writing, this
-software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-CONDITIONS OF ANY KIND, either express or implied.*
+BLEFI Device is an ESP32 firmware project built using ESP-IDF.
+
+The current focus is WiFi packet sniffing with a modular architecture designed for future expansion into additional wireless and embedded features.
+
+
+
+\---
+
+
+
+\## Current Features
+
+
+
+\- WiFi packet sniffing
+
+\- Basic UI framework for device interaction
+
+\- Button input handling system
+
+
+
+\---
+
+
+
+\## Project Goal
+
+
+
+This project is being developed as an embedded systems exploration platform.
+
+The goal is to build a flexible base for experimenting with:
+
+
+
+\- Wireless communication (WiFi + BLE)
+
+\- Embedded UI systems
+
+\- Low-power IoT behavior
+
+\- Data logging and analysis
+
+
+
+\---
+
+
+
+\## Planned Features
+
+
+
+\- BLE scanning and communication
+
+\- SD card logging for captured data
+
+\- Sleep / low-power modes
+
+\- Improved UI navigation and visualization
+
+\- Extended packet analysis tools
+
+
+
+\---
+
+
+
+\## Built With
+
+
+
+\- ESP-IDF (Espressif IoT Framework)
+
+\- C (embedded firmware)
+
+\- ESP32 hardware
+
+
+
+\---
+
+
+
+\## Status
+
+
+
+Early development — WiFi sniffing functional, with active work toward expanding system capabilities.
+
+
+
+\---
+
+
+
+\## Author
+
+
+
+embedded-yamz
+
