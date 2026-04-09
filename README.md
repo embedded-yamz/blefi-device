@@ -1,18 +1,11 @@
-<h1 align="center">🔵 BLEFI Device</h1>
+<h1 align="center"> BLEFI Device</h1>
 <p align="center">
   ESP32-based wireless exploration platform for WiFi & BLE systems
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/platform-ESP32-blue">
-  <img src="https://img.shields.io/badge/framework-ESP--IDF-green">
-  <img src="https://img.shields.io/badge/language-C-orange">
-  <img src="https://img.shields.io/badge/status-in%20progress-yellow">
-</p>
-
 ---
 
-## 🧠 Overview
+## Overview
 
 **BLEFI Device** is an embedded systems project built using the ESP32 and ESP-IDF.
 
@@ -20,25 +13,24 @@ The project is designed as a **modular wireless experimentation platform**, star
 
 ---
 
-## ⚡ Current Features
+## Current Features
 
-- 📡 WiFi packet sniffing (promiscuous mode)
-- 🧩 Modular firmware architecture
-- 🎛️ Basic UI framework for device interaction
-- 🔘 Button input handling system
+- WiFi packet sniffing (promiscuous mode)
+- Basic UI framework for device interaction
+- Button input handling system
 
 ---
 
-## 🛠️ Hardware
+## Hardware
 
-- ESP32 (WROOM module)
+- ESP32 (WROOM32 module)
 - USB interface for programming and communication
 - Button-based input system
 - Integrated power management (battery + regulation)
 
 ---
 
-## 📷 Hardware Design
+## Hardware Design
 
 ### PCB Layout
 <p align="center">
@@ -56,7 +48,7 @@ System schematic showing power architecture, USB interface, MCU connections, and
 
 ---
 
-## 🎥 Demo
+## Firmware Demo
 
 > *(Add short demo video link here)*
 
@@ -64,7 +56,7 @@ https://youtube.com/upload-video-tomorrow
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 This project serves as a platform to explore:
 
@@ -75,17 +67,17 @@ This project serves as a platform to explore:
 
 ---
 
-## 🚧 Planned Features
+## Planned Features
 
-- 🔵 BLE scanning and communication
-- 💾 SD card logging
-- 🔋 Low-power / sleep modes
-- 📊 Enhanced packet analysis
-- 🧭 Improved UI navigation
+- Expand WiFi functionality (promiscuous mode)
+- BLE scanning and communication
+- SD card logging
+- Low-power / sleep modes
+- Improve UI navigation
 
-## 🚀 Hardware Status
+## Hardware Status
 
-- ✅ Prototype running on ESP32 dev board
-- 🔄 Transitioning to custom PCB design
+- Prototype running on ESP32 dev board
+- Transitioning to custom PCB design
 
 ---
