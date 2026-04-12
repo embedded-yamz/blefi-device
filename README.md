@@ -9,24 +9,22 @@
 
 **BLEFI Device** is an embedded systems project built using the ESP32 and ESP-IDF.
 
-The project is designed as a **modular wireless experimentation platform**, starting with WiFi packet sniffing and expanding toward BLE communication, low-power operation, and real-world IoT applications.
+It focuses on wireless experimentation, starting with WiFi packet sniffing and slowly expanding to include addition WiFi functionality, BLE communication, low-power operation, and practical IoT use cases.
 
 ---
 
 ## Current Features
 
 - WiFi packet sniffing (promiscuous mode)
-- Basic UI framework for device interaction
-- Button input handling system
+- Basic directory-style menu system
+- Event-driven Button input system
 
 ---
 
-## Hardware
+## Current Hardware
 
-- ESP32 (WROOM32 module)
-- USB interface for programming and communication
+- ESP32-WROOM-32 Dev Board
 - Button-based input system
-- Integrated power management (battery + regulation)
 
 ---
 
@@ -37,47 +35,46 @@ The project is designed as a **modular wireless experimentation platform**, star
   <img src="assets/blefi_pcb.png" width="800">
 </p>
 
-Custom PCB designed in KiCad integrating ESP32, power management, USB interface, and user input system.
+Custom PCB designed in KiCad integrating ESP32, power management, USB interface, and user input system. **Work still in progress**
 
 ### Schematic
 <p align="center">
   <img src="assets/blefi_schematic.png" width="900">
 </p>
 
-System schematic showing power architecture, USB interface, MCU connections, and peripheral subsystems.
+This system schematic shows the power architecture, USB interface, MCU connections, and peripheral subsystems.
 
 ---
 
 ## Firmware Demo
 
-> *(Add short demo video link here)*
+### Current Setup
+<p align="center">
+  <img src="demo_pictures/demo_pictures_v1/blefi_device_setup_p1.jpg" width="800">
+</p>
 
-https://youtube.com/upload-video-tomorrow
+### Sniffing my own network
+<p align="center">
+  <img src="demo_pictures/demo_pictures_v1/sniffing_my_network_censored.jpg" width="700">
+</p>
 
----
-
-## Project Goals
-
-This project serves as a platform to explore:
-
-- Wireless communication (WiFi + BLE)
-- Embedded UI design
-- Low-power IoT systems
-- Data capture and analysis
-
+Information shown on screen includes the SSID, network signal strength (RSSI), MAC addresses and the current channel of the packet found.
 ---
 
 ## Planned Features
 
 - Expand WiFi functionality (promiscuous mode)
-- BLE scanning and communication
+- BLE functionality
 - SD card logging
 - Low-power / sleep modes
 - Improve UI navigation
 
-## Hardware Status
+---
 
-- Prototype running on ESP32 dev board
-- Transitioning to custom PCB design
+## Motivation
+
+This project was built to deepen my understanding of low-level wireless communication on embedded systems, particularly working directly with ESP-IDF and real-time packet data.
+
+It also serves as a foundation for future embedded projects involving IoT devices, data logging, and custom hardware design.
 
 ---
