@@ -59,6 +59,7 @@ This system schematic shows the power architecture, USB interface, MCU connectio
 </p>
 
 Information shown on screen includes the SSID, network signal strength (RSSI), MAC addresses and the current channel of the packet found.
+
 ---
 
 ## Planned Features
