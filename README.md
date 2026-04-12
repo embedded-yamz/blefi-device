@@ -9,7 +9,7 @@
 
 **BLEFI Device** is an embedded systems project built using the ESP32 and ESP-IDF.
 
-It focuses on wireless experimentation, starting with WiFi packet sniffing and slowly expanding to include addition WiFi functionality, BLE communication, low-power operation, and practical IoT use cases.
+It focuses on wireless experimentation, starting with WiFi packet sniffing and slowly expanding to include additional WiFi functionality, BLE communication, low-power operation, and practical IoT use cases.
 
 ---
 
